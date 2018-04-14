@@ -1,5 +1,5 @@
 body, html{
-	background-color: lightblue;
+	background-color: #66B3FF;
 	background-attachment: fixed;
 	margin:0;
 	height: 100%;
@@ -13,8 +13,15 @@ h1,h2,p {
 }
 
 h1,h2 {
-	color: lightblue;
+	color: #CECEFF;
 	text-shadow: 0px 0px 5px gold;
+    font-family: Times;
+}
+
+p {
+	color: black;
+	text-shadow: 0px 0px 5px;
+    font-family: Times;
 }
 
 .page {
@@ -50,7 +57,7 @@ h1,h2 {
 	border: transparent;
 	border-radius: 5px;
 	cursor: pointer;
-	background: radial-gradient(closest-side, lightblue, black);
+	background: radial-gradient(closest-side, #FFBFFF, black);
 
 	font-family: "Comic Sans MS", cursive, sans-serif; 
 }
@@ -82,7 +89,7 @@ h1,h2 {
 	content: "";
 	width: 100%;
 	height: 10%;
-	background-color: lightpink;
+	background-color: #FFBFFF;
 	position:absolute;
 	top: 5% ;
 	left:0px;
@@ -102,7 +109,7 @@ h1,h2 {
 	content: "";
 	width: 10%;
 	height: 100%;
-	background-color: lightblue;
+	background-color: #66B3FF;
 	position:absolute;
 	left: 5% ;
 	top:0px;
@@ -171,10 +178,10 @@ p::first-letter {
 
 p, footer {
 	background: rgba(255,255,255,0.3);
-	width: 62%;
+	width: 50%;
 	border-radius: 10px;
 	padding: 10px;
-	font-size: 5vmin;
+	font-size: 4vmin;
 	
 }
 footer {
@@ -232,51 +239,51 @@ footer {
 }
 
 #pageCloud {
-	background-image: url("images/cloud.jpg");
+	background-image: url("images/sakura.jpeg");
 }
 #pageCloud {
-	background-image: url("images/cloud.jpg");
+	background-image: url("images/sakura.jpeg");
 }
 
-#pageDandalion {
-	background-image: url("images/dandelion.jpg");
+#pageScenery {
+	background-image: url("images/scenery.jpeg");
 }
 
-#pageDandalion > p {
+#pageScenery > p {
 	position: relative;
 	left: 1%;
 	top: 5%;
 }
-#pageDawn {
-	background-image: url("images/dawn.jpg");
+#pageDrink {
+	background-image: url("images/drink.jpg");
 }
 
-#pageDawn > p {
+#pageDrink > p {
 	position: absolute;
 	right: 1%;
-	top: 15%;
-	width: 80%;
+	top: 10%;
+	width: 30%;
 }
-#pageRain {
+#pageGame {
 	
-	background-image: url("images/rain.jpg");
+	background-image: url("images/game.jpg");
 }
-#pageRain > p {
-	width: 50%;
+#pageGame > p {
 	position: absolute;
+	width: 40%;
 	right: 1%;
-	bottom: 1%;
+	bottom: 8%;
 }
-#pageRiver {
+#pageAimer {
 	
-	background-image: url("images/river.jpg");
+	background-image: url("images/aimer.jpeg");
 }
-#pageRiver > p {
+#pageAimer > p {
 	position: absolute;
 	left: 1%;
-	bottom: 1%;
+	top: 5%;
 }
-#pageSnow {
+#pageHappyBirthday {
 	
-	background-image: url("images/snow.jpg");
+	background-image: url("images/happybirthday.jpeg");
 }
